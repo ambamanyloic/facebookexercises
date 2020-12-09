@@ -1,7 +1,283 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6120a0c-27c0-4611-81d5-5d00d084e9c4" name="Default" comment="" />
+    <list default="true" id="e6120a0c-27c0-4611-81d5-5d00d084e9c4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/loic.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/facebookexercises.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/arrays/IsValidPalindrome.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/DeleteMiddleNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/IntersectLinkedLists.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/IsPalindrome.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/KthToLast.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/ListNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/sort/QuickSort.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/trees/BinaryTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/trees/GraphBFS.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/trees/InOrderDFS.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/trees/InOrderDFSNoRecursion.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/trees/IsMinimalBST.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/trees/MinimalBST.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/trees/SearchBSTNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/trees/TreeNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/trees/searchBST.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/linkedlists/DuplicateList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/linkedlists/LinkedList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/linkedlists/ListNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/linkedlists/MergeTwoLists.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/queuesstack/MinStack.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/trees/TreeNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/trees/TreeSolution.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/treesgraphs/BFSGraph.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/treesgraphs/BinaryTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/treesgraphs/BreadthFirstSearch.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/treesgraphs/DepthFirstSearch.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/treesgraphs/GraphDijkstra.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/treesgraphs/Node.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/treesgraphs/NodeDijkstra.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/treesgraphs/NodeTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/facebookexercises/treesgraphs/QueueNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/ArrayIndices.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/Strings/CombinationSum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/Strings/FirstUniq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/Strings/IsAnagram.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/Strings/IsValidPalindrome.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/Strings/MultiplyStrings.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/Strings/ReformatString.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/Strings/ReverseString.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/Strings/ReverseWords.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/Strings/StringsMatching.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/Strings/TwoSum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/arrays/FindLengthOfLCIS.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/arrays/IntersectionArrays.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/arrays/MergeIntervals.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/arrays/MissingElemArray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/arrays/Permutations.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/arrays/SubarraySum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/AverageLevelsBinaryTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/BinarySearch.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/BinaryTreePathII.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/BinaryTreePaths.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ClosestBinarySearchTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ClosestValue.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/FirstUniqueCharacter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrayBis.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrays.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IntersectionTwoLinkedLists.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsPalindrome.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsValidAnagram.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsValidPalindrome.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/LinkedListCycle.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ListNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/LongestIncreasingSequence.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MaximumSubArray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MergedSortArray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MinimumDepthBT.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MissingNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/NextGreater.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/PalindromeLinkedList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/PivotIndex.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveDuplicates.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveDuplicatesSortedLinkedList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveElement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveLinkedListElements.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveMiddleLinkedList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ReverseLinkedList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/SingleNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/SubarraySum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/SubtreeAnotherTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/SymmetricTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ThirdMax.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ThreeSum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/TreeNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/TwoSum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ValidParentheses.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/ShortestSubarraySumK.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/AddTwoNumbers.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BSTToGreaterTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BinarySearchTreeIterator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BinaryTreeLevelOrderTraversal.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/CombinationSumII.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FindAllDuplicatesArray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FindKthClosestElement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FindPeakElement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FirstLastPosition.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FlattenBinaryTreeLinkedList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/GroupAnagrams.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/GroupAnagramsII.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/InorderSuccessorBST.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/KthLargestElement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/KthSmallestElementBST.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LargestBSTSubtree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LargestNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ListNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestPalindromicSubstring.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestStringWRepeating.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestSubsequence.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LowestCommonAncestor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MergeIntervals.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MinimumSizeSubarraySum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MyStackQueue.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ReorganizeString.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ReverseWords.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SearchRotatedArray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SerializeDeserializeBST.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SingleNumberII.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/StringCompression.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SubArraysSum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ThreeSum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/TopKFrequentWords.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/TreeNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/sortsearch/FirstLastPosition.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/sortsearch/PeakElement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/sortsearch/SearchInsert.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/trees/BinaryTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/trees/BinaryTreeTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/trees/Node.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/BinaryTreeTesterClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/PalindromeTesterClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/arrays/IsValidPalindrome.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/linkedlists/DeleteMiddleNode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/linkedlists/IntersectLinkedLists.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/linkedlists/IsPalindrome.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/linkedlists/KthToLast.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/linkedlists/ListNode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/sort/QuickSort.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/BinaryTree.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/GraphBFS$Node.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/GraphBFS.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/InOrderDFS.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/InOrderDFSNoRecursion.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/IsMinimalBST.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/MinimalBST.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/SearchBSTNode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/TreeNode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/searchBST.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/linkedlists/DuplicateList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/linkedlists/LinkedList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/linkedlists/ListNode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/linkedlists/MergeTwoLists.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/queuesstack/MinStack.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/trees/TreeNode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/trees/TreeSolution.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/treesgraphs/BFSGraph.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/treesgraphs/BinaryTree.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/treesgraphs/BreadthFirstSearch.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/treesgraphs/DepthFirstSearch.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/treesgraphs/GraphDijkstra.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/treesgraphs/Node.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/treesgraphs/NodeDijkstra.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/treesgraphs/NodeTree.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/facebookexercises/treesgraphs/QueueNode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/ArrayIndices.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/Strings/CombinationSum.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/Strings/FirstUniq.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/Strings/IsAnagram.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/Strings/IsValidPalindrome.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/Strings/MultiplyStrings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/Strings/ReformatString.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/Strings/ReverseString.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/Strings/ReverseWords.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/Strings/StringsMatching.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/Strings/TwoSum.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/arrays/FindLengthOfLCIS.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/arrays/IntersectionArrays.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/arrays/MergeIntervals.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/arrays/MissingElemArray.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/arrays/Permutations.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/arrays/SubarraySum.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/AverageLevelsBinaryTree.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/BinarySearch.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/BinaryTreePathII.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/BinaryTreePaths.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/ClosestBinarySearchTree.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/ClosestValue.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/FirstUniqueCharacter.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrayBis.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrays.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/IntersectionTwoLinkedLists.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/IsPalindrome.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/IsValidAnagram.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/IsValidPalindrome.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/LinkedListCycle.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/ListNode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/LongestIncreasingSequence.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/MaximumSubArray.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/MergedSortArray.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/MinimumDepthBT.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/MissingNumber.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/NextGreater.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/PalindromeLinkedList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/PivotIndex.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveDuplicates.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveDuplicatesSortedLinkedList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveElement.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveLinkedListElements.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveMiddleLinkedList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/ReverseLinkedList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/SingleNumber.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/SubarraySum.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/SubtreeAnotherTree.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/SymmetricTree.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/ThirdMax.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/ThreeSum.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/TreeNode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/TwoSum.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/ValidParentheses.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/hard/ShortestSubarraySumK.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/AddTwoNumbers.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/BSTToGreaterTree.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/BinarySearchTreeIterator.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/BinaryTreeLevelOrderTraversal.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/CombinationSumII.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FindAllDuplicatesArray.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FindKthClosestElement.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FindPeakElement.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FirstLastPosition.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FlattenBinaryTreeLinkedList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/GroupAnagrams.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/GroupAnagramsII.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/InorderSuccessorBST.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/KthLargestElement.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/KthSmallestElementBST.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LargestBSTSubtree.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LargestNumber.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/ListNode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestPalindromicSubstring.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestStringWRepeating.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestSubsequence.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LowestCommonAncestor.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/MergeIntervals.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/MinimumSizeSubarraySum.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/MyStackQueue.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/ReorganizeString.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/ReverseWords.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/SearchRotatedArray.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/SerializeDeserializeBST.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/SingleNumberII.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/StringCompression.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/SubArraysSum.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/ThreeSum.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/TopKFrequentWords.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/TreeNode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/sortsearch/FirstLastPosition.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/sortsearch/PeakElement.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/sortsearch/SearchInsert.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/trees/BinaryTree.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/trees/BinaryTreeTest.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/trees/Node.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/BinaryTreeTesterClass.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/PalindromeTesterClass.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -143,6 +419,9 @@
       <dir>$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -244,6 +523,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -659,7 +939,7 @@
       <workItem from="1599103798282" duration="31101000" />
       <workItem from="1600531174112" duration="95681000" />
       <workItem from="1603049035324" duration="66136000" />
-      <workItem from="1606591638609" duration="21072000" />
+      <workItem from="1606591638609" duration="21240000" />
     </task>
     <servers />
   </component>
@@ -684,7 +964,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341649000" />
+    <option name="totallyTimeSpent" value="341817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="838" extended-state="0" />
@@ -698,7 +978,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13997309" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
