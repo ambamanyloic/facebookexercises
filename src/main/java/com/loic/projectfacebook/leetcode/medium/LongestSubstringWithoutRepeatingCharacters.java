@@ -1,32 +1,37 @@
 package com.loic.projectfacebook.leetcode.medium;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
 
-        char[] str_chars = s.toCharArray();
-        int count = 0;
-        HashSet<Character> set = new HashSet<Character>();
+        Set<Character> set = new HashSet<>();
 
-        for(int i=0;i<s.length();i++) {
+        int left = 0;
+        int right = 0;
+        int max = 0;
 
-            if (set.contains((Character) str_chars[i])) {
+        while(right < s.length()) {
 
-                return count;
+            if(!set.contains(s.charAt(right))) {
 
+                set.add(s.charAt(right));
+                right++;
+                max = Integer.max(max,set.size());
             } else {
 
-                set.add(str_chars[i]);
-                count++;
+
+                set.remove(s.charAt(left));
+                left++;
+
             }
         }
 
+        return max;
 
-        return count;
 
-
-    }
+}
 
     public static void main(String [] args) {
 

@@ -43,17 +43,6 @@ public class IntersectionTwoArrays {
         }
 
         return result;
-
-    }
-
-    private int[] listToArray(List<Integer> list) {
-        int[] result = new int[list.size()];
-
-        for (int i = 0; i < list.size(); i++) {
-            result[i] = list.get(i);
-        }
-
-        return result;
     }
 
     public static void main(String[] args) {

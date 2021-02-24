@@ -3,33 +3,22 @@ package com.loic.projectfacebook.leetcode.medium;
 public class LowestCommonAncestor {
 
 
-    public TreeNode lowestCA(TreeNode node,TreeNode left,TreeNode right) {
+    public TreeNode lowestCommonAncestor(TreeNode root,TreeNode p,TreeNode q) {
 
-        if(left.val == node.val || right.val == node.val) {
-
-            return node;
+        if(root == null) {
+            return null;
         }
 
-        left = lowestCA(node.left,left,right);
-        right = lowestCA(node.right,left,right);
+        if(root.val > p.val && root.val > q.val) {
 
-        return left == null ? right : right == null ? left : node;
-
-    }
-
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-
-        TreeNode searchNode = null;
-
-        if(root != null){
-
-
-                searchNode = lowestCA(root,p,q);
-
-
+            return lowestCommonAncestor(root.left,p,q);
         }
 
-        return searchNode;
+        if(root.val < p.val && root.val < q.val) {
 
+            return lowestCommonAncestor(root.right,p,q);
+        }
+
+        return root;
     }
 }

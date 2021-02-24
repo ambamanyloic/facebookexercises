@@ -7,51 +7,86 @@ public class PalindromeLinkedList {
 
     boolean isPalindrome(ListNode head) {
 
-        ListNode fast= head;
-        ListNode slow= head;
+        if(head == null)
+            return true;
+
+        ListNode p = head;
+        ListNode prev = new ListNode(head.val);
+
+        while(p.next != null){
+            ListNode current = new ListNode(p.next.val);
+            current.next = prev;
+            prev = current;
+            p = p.next;
+        }
+
+        ListNode p1 = head;
+        ListNode p2 = prev;
+
+        while(p1!=null){
+            if(p1.val != p2.val)
+                return false;
+
+            p1 = p1.next;
+            p2 = p2.next;
+        }
+
+        return true;
+
+
+        /*ListNode slow = head;
 
         Stack<Integer> stack = new Stack<>();
 
-        /* Push elements from first half of linked list onto stack. When fast runner * (which is moving at 2x speed) reaches the end of the linked list, then we * know we're at the middle*/ while (fast != null && fast.next != null) {
+        while(slow != null) {
 
             stack.push(slow.val);
-
             slow = slow.next;
-
-            fast = fast.next.next; }
-
-        /* Has odd number of elements, so skip the middle element*/
-
-        if (fast!= null) {
-
-            slow= slow.next;
 
         }
 
-        while (slow != null) {
+        while(head != null) {
+
 
             int top = stack.pop();
 
-            /* If values are different, then it's not a palindrome*/
+            if(head.val == top) {
 
-            if (top != slow.val) {
+                head = head.next;
+
+                return true;
+
+
+            } else {
 
                 return false;
 
             }
 
-            slow = slow.next;
 
-        } return true;
+        }
+
+        return true;*/
 
     }
 
     public static void main(String[] args) {
 
-        PalindromeLinkedList pal = new PalindromeLinkedList();
-        ListNode listN = new ListNode(5);
-        ListNode listN1 = new ListNode(7);
-        System.out.println(pal.isPalindrome(listN1));
+        ListNode one = new ListNode(1);
+        ListNode two = new ListNode(1);
+        ListNode three = new ListNode(1);
+        ListNode four = new ListNode(2);
+        ListNode five = new ListNode(1);
+        ListNode six = new ListNode(1);
+        ListNode seven = new ListNode(1);
+        one.next = two;
+        two.next = three;
+        three.next = four;
+        four.next = five;
+        five.next = six;
+        six.next = seven;
+        PalindromeLinkedList condition = new PalindromeLinkedList();
+        System.out.println("isPalidrome :" + condition.isPalindrome(one));
 
     }
 }

@@ -4,26 +4,17 @@ public class RemoveLinkedListElements {
 
     public ListNode removeElements(ListNode head, int val) {
 
-        //ListNode node = new ListNode(val);
-
-        if(head == null) {
-            return null;
-        }
-
-        ListNode temp = new ListNode(val);
-
-        while (temp != null && temp.next != null) {
-
-            if (temp.next.val == temp.val) {
-
-                temp.next = temp.next.next;
-
-            } else {
-                temp = temp.next;
+            ListNode temp = new ListNode(0);
+            temp.next = head;
+            head = temp;
+            while (head != null && head.next != null){
+                if (head.next.val == val){
+                    head.next = head.next.next;
+                }else{
+                    head = head.next;
+                }
             }
-        }
-
-        return head;
+            return temp.next;
 
     }
 

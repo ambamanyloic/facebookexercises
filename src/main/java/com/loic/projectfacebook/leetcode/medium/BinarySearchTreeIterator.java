@@ -4,47 +4,28 @@ import java.util.Stack;
 
 public class BinarySearchTreeIterator {
 
-    int min = 0;
-    Stack<TreeNode> stack = new Stack<>();
-
+    Stack<TreeNode> stack = new Stack<TreeNode>();
 
     public BinarySearchTreeIterator(TreeNode root) {
-
-
-
-    }
-
-    /** @return the next smallest number */
-    public int next() {
-
-        TreeNode root = null;
-
-        if (root.left != null) {
-
-            min = root.left.val;
-            stack.push(root.left);
-        }
-
-
-        return min;
-
-
-    }
-
-    /** @return whether we have a next smallest number */
-    public boolean hasNext() {
-
+        pushToLeft(root);
+    }/** @return whether we have a next smallest number */
+    public boolean hasNext(){
         if(stack.empty()){
             return false;
         }return true;
-
+    }/** @return the next smallest number */
+    public int next(){
+        TreeNode node = stack.pop();
+        pushToLeft(node.right);
+        return node.val;
     }
 
-    public void pushToLeft(TreeNode node){
+    private void pushToLeft(TreeNode node){
         if (node != null){
             stack.push(node);
             pushToLeft(node.left);
         }
+
     }
 
     public static void main(String[] args) {
@@ -52,6 +33,7 @@ public class BinarySearchTreeIterator {
         TreeNode node1 = new TreeNode(2);
 
         BinarySearchTreeIterator tree = new BinarySearchTreeIterator(node1);
+
 
         if(tree.hasNext()) {
 

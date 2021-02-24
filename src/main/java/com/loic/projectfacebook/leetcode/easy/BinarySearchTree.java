@@ -12,18 +12,25 @@ public class BinarySearchTree {
 
     public int binarySearchTree(int [] nums,int start,int end,int x){
 
-        int mid = start - (end - start) /2;
+        if (end >= start) {
 
-        if(nums[mid] == x) {
+            int mid = start + (end - start) / 2;
 
-            return  nums[mid];
-        } else if (nums[mid] > x) {
+            if (nums[mid] == x) {
 
-            return binarySearchTree(nums,start,mid-1,x);
-        } else {
+                return nums[mid];
+            } else if (nums[mid] > x) {
 
-            return binarySearchTree(nums,mid+1,end,x);
+                return binarySearchTree(nums, start, mid - 1, x);
+            } else {
+
+                return binarySearchTree(nums, mid + 1, end, x);
+            }
+
         }
+
+        return -1;
+
 
     }
 }

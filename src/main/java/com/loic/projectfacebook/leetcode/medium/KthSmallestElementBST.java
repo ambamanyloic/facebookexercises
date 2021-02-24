@@ -3,35 +3,30 @@ package com.loic.projectfacebook.leetcode.medium;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Stack;
 
 public class KthSmallestElementBST {
 
-    public TreeNode kthSmallest(TreeNode root, int k) {
+    public int kthSmallest(TreeNode root, int k) {
 
-        HashMap<Integer,Integer> map = new HashMap<>();
-        TreeNode current = root;
-        ArrayList<Integer> list = new ArrayList<>();
-        int count = 0;
+        Stack<TreeNode> stack = new Stack<TreeNode>();
 
-        while(root != null) {
+        TreeNode p = root;
+        int result = 0;
 
-            current = current.left;
-            current = kthSmallest(current.left,k);
-            count++;
-
-            if (count == k)
-                return root;
-
-            if (current.left == null) {
-
-
-                current = kthSmallest(current.right,k);
+        while(!stack.isEmpty() || p!=null){
+            if(p!=null){
+                stack.push(p);
+                p = p.left;
+            }else{
+                TreeNode t = stack.pop();
+                k--;
+                if(k==0)
+                    result = t.val;
+                p = t.right;
             }
         }
 
-        return current;
-
-
+        return result;
     }
-
 }

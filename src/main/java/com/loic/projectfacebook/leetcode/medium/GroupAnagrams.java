@@ -13,14 +13,9 @@ public class GroupAnagrams {
 
         for(String str: strs) {
 
+            char[] arr_char = str.toCharArray();
 
-            char[] arr_char = new char[26];
-
-
-            for (int i = 0; i < str.length(); i++) {
-
-                arr_char[str.charAt(i)-'a']++;
-            }
+            Arrays.sort(arr_char);
 
                 String ns = new String(arr_char);
 

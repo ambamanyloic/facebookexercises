@@ -11,9 +11,9 @@ public class SerializeDeserializeBST {
         if(root != null) {
 
 
-            buff.append(root);
-            buff.append(root.left);
-            buff.append(root.right);
+            buff.append(root.val);
+            buff.append(root.left.val);
+            buff.append(root.right.val);
 
         }
 

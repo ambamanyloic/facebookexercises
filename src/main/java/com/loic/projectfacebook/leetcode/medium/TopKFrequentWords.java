@@ -5,33 +5,33 @@ import java.util.*;
 public class TopKFrequentWords {
 
 
-    /*public List<String> topKFrequent(int[] words, int k) {
+    public List<Integer> topKFrequent(Integer[] nums, int k) {
 
-        HashMap<Integer,Integer> map = new HashMap<Integer, Integer>();
-        PriorityQueue queue = new PriorityQueue();
-        int max = Integer.MIN_VALUE;
-        int count = 0;
-        List<String> arr_list = new ArrayList<>();
+        //HashMap<String,Integer> map = new HashMap<>();
+        HashMap<Integer,Integer> map = new HashMap<>();
+        //PriorityQueue<Map.Entry<String, Integer>> queue =
+        PriorityQueue<Map.Entry<Integer, Integer>> queue =
+                new PriorityQueue<>((a,b) -> (b.getValue() - a.getValue()));
+        //List<String> arr_list = new ArrayList<>();
+        List<Integer> arr_list = new ArrayList<>();
 
-            for (int i = 0; i < words.length; i++) {
+        for (Integer i: nums) {
+            map.put(i, map.getOrDefault(i, 0) + 1);
+        }
 
-                if (map.containsKey(words[i])) {
-
-                    map.put(words[i], map.get(words[i] + 1));
-                    count = Math.max(count, map.get(words[i]));
-                } else {
-
-                    map.put(words[i], 1);
+                //for (Map.Entry<String,Integer> entry : map.entrySet()) {
+                for (Map.Entry<Integer,Integer> entry : map.entrySet()) {
+                    queue.add(entry);
                 }
 
-                for(Integer key : map.keySet()) {
 
-                    int freq = map.get(key);
-                    queue.add(map.get(key);
 
-            }
+        while (k > 0) {
 
-            }
+            Map.Entry<Integer, Integer> entry = queue.poll();
+            arr_list.add(entry.getKey());
+            k--;
+        }
 
         return arr_list;
 
@@ -41,10 +41,10 @@ public class TopKFrequentWords {
 
 
         TopKFrequentWords freq = new TopKFrequentWords();
-        String[] arr = {"i", "love", "leetcode", "i", "love", "coding"};
+        //String[] arr = {"i", "love", "leetcode", "i", "love", "coding"};
+        Integer[] arr = {1,1,1,2,2,3};
         System.out.println(freq.topKFrequent(arr,2));
 
 
-
-    }*/
+    }
 }

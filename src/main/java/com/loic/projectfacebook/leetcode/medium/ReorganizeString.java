@@ -14,9 +14,11 @@ public class ReorganizeString {
                 buff.append(new_str[i+2]);
                 buff.append(new_str[i+1]);
 
+                return buff.toString();
+
             } else {
 
-                    buff.append("");
+                     return "";
             }
 
         }

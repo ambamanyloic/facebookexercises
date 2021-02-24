@@ -1,53 +1,86 @@
 package com.loic.projectfacebook.leetcode.medium;
 
 public class LongestPalindromicSubstring {
-    public String longestPalindrome(String s) {
+
+    public String findPalindrome(String s,int left, int right) {
 
         if(s.isEmpty()) {
             return "";
         }
 
-        int left = 0;
-        int right = s.length() - 1;
-        int count = 0;
-        int longestSoFar = 0, startIndex = 0, endIndex = 0;
-        char[] s_char = s.toCharArray();
-        int min = Integer.MAX_VALUE;
 
-        while (left <= right) {
+        int len = s.length();
 
-
-            if (s_char[left] == s_char[right]) {
-
-                min = Math.min(min,left-right+1);
-
-                if(min > longestSoFar) {
-
-                    longestSoFar = min;
-                    startIndex = left;
-                    endIndex = right;
-                }
-
-               /* if (left - right + 1 > longestSoFar) {
-                    longestSoFar = left - right + 1;
-                    startIndex = left;
-                    endIndex = right;
-
-                }*/
-            }
-
-            left++;
-            right--;
-
-
+        // expand in both directions
+        while (left >= 0 && right < len &&
+                (s.charAt(left) == s.charAt(right))) {
+            left--;
+            right++;
         }
 
-        return s.substring(startIndex, endIndex + 1);
+        return s.substring(left+1, right);
+    }
+
+
+
+    public  String longestPalindromicSubString(String str,int len)
+    {
+
+        // max_str stores the maximum length palindromic substring
+        // found so far
+
+        String max_str = "", curr_str;
+
+        // max_length stores the length of maximum length palindromic
+        // substring found so far
+
+        int max_length = 0, curr_length;
+
+        // consider every adjacent pair of characters as mid points and
+        // expand in both directions to find maximum length palindrome
+
+        for (int i = 0; i < len; i++)
+        {
+            // find a longest odd length palindrome with str[i] as mid point
+
+            curr_str = findPalindrome(str, i, i);
+            curr_length = curr_str.length();
+
+
+            // update maximum length palindromic substring if odd length
+            // palindrome has greater length
+
+            if (curr_length > max_length)
+            {
+                max_length = curr_length;
+                max_str = curr_str;
+            }
+
+            // find a longest even length palindrome with str[i] and
+            // str[i+1] as mid points.
+            // Note that an even length palindrome has two mid points
+
+            curr_str = findPalindrome(str, i, i + 1);
+            curr_length = curr_str.length();
+
+            // update maximum length palindromic substring if even length
+            // palindrome has greater length
+
+            if (curr_length > max_length)
+            {
+                max_length = curr_length;
+                max_str = curr_str;
+            }
+        }
+
+        return max_str;
+
     }
 
     public static void main(String[]args){
 
         LongestPalindromicSubstring longest = new LongestPalindromicSubstring();
-        System.out.println(longest.longestPalindrome("babad"));
+        String str = "babad";
+        System.out.println(longest.longestPalindromicSubString(str,str.length()-1));
     }
 }

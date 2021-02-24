@@ -5,7 +5,7 @@ import java.util.*;
 
 public class FirstLastPosition {
 
-    public List searchRange(int[] nums, int target) {
+    public List  searchRange(int[] nums, int target) {
 
         int start = -1, end = -1;
         ArrayList<Integer> list = new ArrayList<>();
@@ -36,7 +36,18 @@ public class FirstLastPosition {
 
         list.add(end);
 
-        return list;
+            /*int [] result = new int[list.size()];
+
+            int k =0;
+
+        for(int l : result) {
+
+            result[k++] = l;
+        }
+
+        return result;*/
+
+            return list;
 
     }
 

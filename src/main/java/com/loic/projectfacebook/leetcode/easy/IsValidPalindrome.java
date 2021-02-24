@@ -36,5 +36,6 @@ public class IsValidPalindrome {
 
         IsValidPalindrome valid = new IsValidPalindrome();
         System.out.println(valid.isPalindrome("racecar"));
+        //System.out.println(valid.isPalindrome("A man, a plan, a canal: Panama"));
     }
 }

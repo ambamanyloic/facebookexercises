@@ -33,9 +33,9 @@ public class SubArraysSum {
     public static void main(String[] args){
 
         SubarraySum sum = new SubarraySum();
-        int[] arr = {1,2,3};
+        int[] arr = {1,1,1};
 
-        System.out.println(sum.subarraySum(arr,3));
+        System.out.println(sum.subarraySum(arr,2));
 
     }
 }

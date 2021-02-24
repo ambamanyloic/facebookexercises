@@ -45,7 +45,7 @@ public class RemoveMiddleLinkedList {
         return temp;
     }
 
-    /* Drier code*/
+    /* Driver code*/
     public static void main(String[] args)
     {
         /* Start with the empty list */
@@ -54,7 +54,7 @@ public class RemoveMiddleLinkedList {
         head.next.next = new ListNode(3);
         head.next.next.next = new ListNode(4);
 
-        System.out.println("Gven Linked List");
+        System.out.println("Given Linked List");
         printList(head);
 
         head = remove(head);

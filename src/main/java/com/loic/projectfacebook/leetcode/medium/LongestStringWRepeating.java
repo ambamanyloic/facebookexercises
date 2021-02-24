@@ -35,7 +35,7 @@ public class LongestStringWRepeating {
     public static void main(String [] args) {
 
         LongestStringWRepeating str = new LongestStringWRepeating();
-        String s = "pwwkew";
+        String s = "abcabcbb";
         System.out.println(str.lengthOfLongestSubstring(s));
 
     }

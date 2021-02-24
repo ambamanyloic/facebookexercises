@@ -7,46 +7,28 @@ public class FindAllDuplicatesArray {
 
     public List<Integer> findDuplicates(int[] nums) {
 
-        HashMap<Integer, Integer> map = new HashMap<>();
-        //List<Integer> arr_list = new ArrayList<>();
-        List<Integer> res = new LinkedList<>();
+            List<Integer> list_set = new LinkedList<>();
+            int j =0;
+            Arrays.sort(nums);
 
-        for (int i = 0; i < nums.length; i++) {
-
-            if (map.containsKey(nums[i])) {
-                map.put(nums[i], map.get(nums[i]) + 1);
-            } else {
-
-                map.put(nums[i], 1);
-            }
-
-            for (Map.Entry hmap : map.entrySet()) {
+            for(int i=0;i<nums.length-1;i++){
 
 
-                if ((Integer) hmap.getValue() == 2) {
 
-                    res.add((Integer) hmap.getKey());
+                if(nums[j] != nums[i+1] ) {
 
+                    j++;
+                } else {
+
+                    list_set.add(nums[i+1]);
+                    j++;
                 }
+
             }
 
+            return list_set;
 
         }
-
-        return res;
-
-        /*List<Integer> res = new LinkedList<>();
-        int n = nums.length;
-        for(int i=0;i<n;i++){
-            int pos = Math.abs(nums[i])-1;
-            if(nums[pos]<0){
-                res.add(pos+1);
-            }
-            nums[pos] = -nums[pos];
-        }
-        return res;*/
-
-    }
 
     public static void main(String[] args) {
 

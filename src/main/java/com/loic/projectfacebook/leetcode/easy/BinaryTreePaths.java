@@ -10,32 +10,28 @@ public class BinaryTreePaths {
         if (root == null) {
             return list;
         }
-        addToPath(root, "");
+        addToPath(root, "",list);
         return list;
     }
 
 
-    private void addToPath(TreeNode node, String s) {
+    private void addToPath(TreeNode node, String s,List<String> list) {
+
+        s += node.val;
 
         if (node.left == null && node.right == null) {
-            list.add(s + node.val);
-            return;
-        }
-        if (node.left == null) {
-            addToPath(node.right, "" + s + node.val + "->");
-            list.add(s + node.val);
+            list.add(s);
             return;
         }
 
-        if (node.right == null) {
-            addToPath(node.left, "" + s + node.val + "->");
-            list.add(s + node.val);
-            return;
+        if (node.left != null) {
+            addToPath(node.left,  s + "->",list);
+        }
+        if (node.right != null) {
+            addToPath(node.right,  s + "->",list);
         }
 
-        addToPath(node.left, "" + s + node.val + "->");
-        addToPath(node.right, "" + s + node.val + "->");
-    }
+}
 
     public static void main(String[] args) {
 

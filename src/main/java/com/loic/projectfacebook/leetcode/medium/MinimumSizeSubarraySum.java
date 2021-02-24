@@ -2,7 +2,7 @@ package com.loic.projectfacebook.leetcode.medium;
 
 
 public class MinimumSizeSubarraySum {
-    public int minSubArrayLen(int s, int[] nums) {
+    public int minSubArrayLen(int target, int[] nums) {
 
         int size = nums.length;
 
@@ -11,19 +11,19 @@ public class MinimumSizeSubarraySum {
         }
 
 
-        int j = 0;
+        int end = 0;
         int sum = 0;
         int min = Integer.MAX_VALUE;
 
-            for (int i = 0; i < size; i++) {
+            for (int start = 0; start < size; start++) {
 
-                sum += nums[i];
+                sum += nums[start];
 
-                while (sum >= s) {
+                while (sum >= target) {
 
-                    min = Math.min(min,i - j + 1);
-                    sum -= nums[j];
-                    j++;
+                    min = Math.min(min,start + 1 - end);
+                    sum -= nums[end];
+                    end++;
                 }
 
             }
