@@ -7,25 +7,20 @@ public class TopKFrequentWords {
 
     public List<Integer> topKFrequent(Integer[] nums, int k) {
 
-        //HashMap<String,Integer> map = new HashMap<>();
         HashMap<Integer,Integer> map = new HashMap<>();
-        //PriorityQueue<Map.Entry<String, Integer>> queue =
+
         PriorityQueue<Map.Entry<Integer, Integer>> queue =
                 new PriorityQueue<>((a,b) -> (b.getValue() - a.getValue()));
-        //List<String> arr_list = new ArrayList<>();
+
         List<Integer> arr_list = new ArrayList<>();
 
         for (Integer i: nums) {
             map.put(i, map.getOrDefault(i, 0) + 1);
         }
 
-                //for (Map.Entry<String,Integer> entry : map.entrySet()) {
                 for (Map.Entry<Integer,Integer> entry : map.entrySet()) {
                     queue.add(entry);
                 }
-
-
-
         while (k > 0) {
 
             Map.Entry<Integer, Integer> entry = queue.poll();
@@ -34,7 +29,6 @@ public class TopKFrequentWords {
         }
 
         return arr_list;
-
     }
 
     public static void main(String[] args) {
@@ -42,8 +36,8 @@ public class TopKFrequentWords {
 
         TopKFrequentWords freq = new TopKFrequentWords();
         //String[] arr = {"i", "love", "leetcode", "i", "love", "coding"};
-        Integer[] arr = {1,1,1,2,2,3};
-        System.out.println(freq.topKFrequent(arr,2));
+        Integer[] arr = {1,1,4,5,6,7,8,1,2,3,4,1,4,6,7,9,11,14,15,13,12,1,2,3,4,5,6,7,11,12,13,15,16,17,16,15,14,11,5,6,7,8,2,6,7,9,3,4,5};
+        System.out.println(freq.topKFrequent(arr,10));
 
 
     }

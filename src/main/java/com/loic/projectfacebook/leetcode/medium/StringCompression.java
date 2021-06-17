@@ -1,33 +1,41 @@
 package com.loic.projectfacebook.leetcode.medium;
 
 public class StringCompression {
-    public String compress(char[] chars) {
+    public int compress(char[] chars) {
 
-        StringBuffer bf = new StringBuffer();
+        int index = 0;
+        int indexResult = 0;
         int size = chars.length;
 
-        for(int i =0;i<chars.length;i++) {
+        while(index < size){
+            char curr = chars[index];
+            int count =1;
 
-            if(size ==1) {
+            while(index +1 < size && chars[index+1] == curr){
+                count++;
+                index++;
 
-                bf.append(""+chars[i]);
-            } else {
+                chars[indexResult++] = curr;
+                index++;
 
-                bf.append(""+chars[i] + size);
+                if(count ==1) continue;
+
+                for(char c : String.valueOf(count).toCharArray()){
+                    chars[indexResult++] = c;
+                }
             }
-
-
         }
-        return bf.toString();
+
+        return indexResult;
 
     }
 
     public static void main(String [] args){
 
-        StringCompression compress =  new StringCompression();
-        char[] new_char = {'a','a'};
+        StringCompression compression =  new StringCompression();
+        char[] new_char = {'a','a','b','b','c','c','c'};
 
-        System.out.println(compress.compress(new_char));
+        System.out.println(compression.compress(new_char));
 
     }
 }

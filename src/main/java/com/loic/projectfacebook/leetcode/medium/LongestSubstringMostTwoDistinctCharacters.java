@@ -1,5 +1,6 @@
 package com.loic.projectfacebook.leetcode.medium;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -7,45 +8,36 @@ public class LongestSubstringMostTwoDistinctCharacters {
 
     public int lengthOfLongestSubstringTwoDistinct(String s,int k) {
 
-        Map<Character,Integer> map = new HashMap<Character,Integer>();
-        int right = 0;
+        int n = s.length();
+
+        if(n < 3) return n;
+
         int left = 0;
-        int count = 0;
-        int maxLen = 0;
+        int right = 0;
 
-        while (right < s.length()) {
+        if(n < 3) return n;
 
-            char right_char = s.charAt(right);
+        Map<Character,Integer> map = new HashMap<>();
 
-            map.put(right_char, map.getOrDefault(right_char, 0) + 1);
+        int max = 2;
 
-            if (map.get(right_char) == 1) {
+        while(right < n) {
 
-                count++;
+            map.put(s.charAt(right),right++);
 
-            }
 
-            right++;
+            if(map.size() == 3) {
 
-            while(count > k) {
+                int leftIndex = Collections.min(map.values());
 
-                char left_char = s.charAt(left);
-                map.put(left_char,map.get(left_char) -1);
+                map.remove(s.charAt(leftIndex));
 
-                if(map.get(left_char) == 0) {
-
-                    count--;
-                }
-
-                left++;
+                left = leftIndex +1;
 
             }
-
-            maxLen = Math.max(maxLen, right - left);
-
+            max = Math.max(max,right-left);
         }
-
-        return maxLen;
+        return max;
 
     }
 

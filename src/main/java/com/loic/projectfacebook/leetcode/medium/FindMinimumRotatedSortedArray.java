@@ -4,32 +4,27 @@ public class FindMinimumRotatedSortedArray {
 
     public int findMin(int[] nums) {
 
-        if(nums==null || nums.length==0)
-            return -1;
-
-        int i = 0;
-        int j =nums.length-1;
-
-       while(i<=j) {
-           if(nums[i] <= nums[j])
-               return nums[i];
-
-           int m=(i+j)/2;
-
-           if(nums[m] >= nums[i])
-               i=m+1;
-           else
-               j=m;
+        if(nums[0]<nums[nums.length-1]){
+            return nums[0];
+        }
+        int l = 0;
+        int r = nums.length-1;
+        while(r>l){
+            int mid = (l+r)/2;
+            if(nums[mid]>=nums[0]){
+                l = mid+1;
+            }else{
+                r = mid;
+            }
+        }
+        return nums[l];
 
        }
-
-       return -1;
-    }
 
     public static void main(String[] args){
 
         FindMinimumRotatedSortedArray min = new FindMinimumRotatedSortedArray();
-        int[] arr = {4,5,6,7,0,1,2};
+        int[] arr = {3,4,5,1,2};
         System.out.println(min.findMin(arr));
     }
 }

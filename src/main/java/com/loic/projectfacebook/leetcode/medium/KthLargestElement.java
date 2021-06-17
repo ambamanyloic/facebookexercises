@@ -7,20 +7,22 @@ public class KthLargestElement {
     public int findKthLargest(int[] nums, int k) {
 
         Arrays.sort(nums);
-        PriorityQueue<Integer> queue = new PriorityQueue(k);
 
-        for(int i: nums){
-            queue.offer(i);
+        PriorityQueue<Integer> queue = new PriorityQueue<>((n1,n2) -> n1 - n2);
+
+        for(int i:nums){
+
+            queue.add(i);
 
             if(queue.size()>k){
+
                 queue.poll();
             }
         }
 
-        return queue.peek();
+        return queue.poll();
 
-        /*int value = 0;
-        int size = nums.length-1;
+        /*Arrays.sort(nums);
         return nums[nums.length-k];*/
 
     }

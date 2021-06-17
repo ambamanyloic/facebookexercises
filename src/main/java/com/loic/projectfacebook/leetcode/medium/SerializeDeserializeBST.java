@@ -1,43 +1,49 @@
 package com.loic.projectfacebook.leetcode.medium;
 
+import java.util.ArrayDeque;
+
 public class SerializeDeserializeBST {
 
-    public String serialize(TreeNode root) {
-
-        StringBuffer buff = new StringBuffer();
-        int start = Integer.MIN_VALUE;
-        int end = Integer.MAX_VALUE;
-
-        if(root != null) {
-
-
-            buff.append(root.val);
-            buff.append(root.left.val);
-            buff.append(root.right.val);
-
-        }
-
-
-        return buff.toString();
-
+    public StringBuilder postorder(TreeNode root, StringBuilder sb) {
+        if (root == null)
+            return sb;
+        postorder(root.left, sb);
+        postorder(root.right, sb);
+        sb.append(root.val);
+        sb.append(' ');
+        return sb;
     }
 
-    public int searchBST(int[] array,int start,int end) {
+    // Encodes a tree to a single string.
+    public String serialize(TreeNode root) {
+        StringBuilder sb = postorder(root, new StringBuilder());
+        if (sb.length() > 0)
+            sb.deleteCharAt(sb.length() - 1);
+        return sb.toString();
+    }
 
-        TreeNode root = null;
+    public TreeNode helper(Integer lower, Integer upper, ArrayDeque<Integer> nums) {
+        if (nums.isEmpty())
+            return null;
+        int val = nums.getLast();
+        if (val < lower || val > upper)
+            return null;
 
-        int middle = start + ( end - start) /2;
+        nums.removeLast();
+        TreeNode root = new TreeNode(val);
+        root.right = helper(val, upper, nums);
+        root.left = helper(lower, val, nums);
+        return root;
+    }
 
-        if(middle == array[middle])
-            middle = root.val;
-
-        if(middle < array[middle])
-            searchBST(array,start,middle+1);
-        if(middle > array[middle])
-            searchBST(array,middle+1 , end);
-
-
-        return -1;
+    // Decodes your encoded data to tree.
+    public TreeNode deserialize(String data) {
+        if (data.isEmpty())
+            return null;
+        ArrayDeque<Integer> nums = new ArrayDeque<Integer>();
+        for (String s : data.split("\\s+"))
+            nums.add(Integer.valueOf(s));
+        return helper(Integer.MIN_VALUE, Integer.MAX_VALUE, nums);
     }
 
     public static void main(String [] args) {

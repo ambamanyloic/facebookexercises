@@ -5,6 +5,9 @@ import com.loic.projectfacebook.leetcode.arrays.FindLengthOfLCIS;
 public class FindPeakElement {
     public int findPeakElement(int[] nums) {
 
+        return search(nums, 0, nums.length - 1);
+    }
+
 
         //BRUTE FORCE BELOW FIRST --->
        /* int max = Integer.MIN_VALUE;
@@ -27,28 +30,13 @@ public class FindPeakElement {
 
        // O(log(n)) SECOOND IMPLEMENTATION -->
 
-        int left = 0;
-        int right = nums.length;
-
-        return findPeakElement(nums, left, right);
-    }
-
-    public int findPeakElement(int[] nums,int left , int right) {
-        int n = nums.length;
-
-       int mid  = left + (right - left) / 2;
-
-       if((mid == 0 || nums[mid] >= nums[mid-1]) && (mid == n-1 || nums[mid] >= nums[mid+1])) {
-
-           return mid;
-        }
-
-        if(mid - 1 >= 0 && nums[mid-1] > nums[mid]) {
-
-           return findPeakElement(nums,left,mid-1);
-        }
-
-        return findPeakElement(nums,mid+1,right);
+    public int search(int[] nums, int l, int r) {
+        if (l == r)
+            return l;
+        int mid = (l + r) / 2;
+        if (nums[mid] > nums[mid + 1])
+            return search(nums, l, mid);
+        return search(nums, mid + 1, r);
 
     }
 

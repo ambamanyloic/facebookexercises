@@ -6,27 +6,29 @@ import java.util.*;
 public class FindAllDuplicatesArray {
 
     public List<Integer> findDuplicates(int[] nums) {
+        List<Integer> list_set = new LinkedList<Integer>();
+        int j =0;
+        Arrays.sort(nums);
+        Set<Integer> set = new HashSet<>();
 
-            List<Integer> list_set = new LinkedList<>();
-            int j =0;
-            Arrays.sort(nums);
-
-            for(int i=0;i<nums.length-1;i++){
-
-
-
-                if(nums[j] != nums[i+1] ) {
-
-                    j++;
-                } else {
-
-                    list_set.add(nums[i+1]);
-                    j++;
-                }
-
+        for(int i=0;i<nums.length;i++){
+            if(set.contains(nums[i])){
+                list_set.add(nums[i]);
+            } else {
+                set.add(nums[i]);
             }
+        }
 
-            return list_set;
+        /*for(int i=1;i<nums.length;i++){
+            if(nums[j] != nums[i] ) {
+                j++;
+            } else {
+                list_set.add(nums[i]);
+                j++;
+            }
+        }*/
+
+        return list_set;
 
         }
 

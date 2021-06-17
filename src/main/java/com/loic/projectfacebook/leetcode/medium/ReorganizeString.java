@@ -30,7 +30,7 @@ public class ReorganizeString {
     public static void main(String [] args) {
 
         ReorganizeString reorg = new ReorganizeString();
-        String str1 = "aaab";
+        String str1 = "aab";
         System.out.println(reorg.reorganizeString(str1));
 
     }

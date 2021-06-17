@@ -1,26 +1,34 @@
 package com.loic.projectfacebook.leetcode.medium;
 
+import java.util.LinkedList;
+
 public class FlattenBinaryTreeLinkedList {
 
     public TreeNode flatten(TreeNode root) {
 
-        TreeNode node = null;
+        LinkedList<TreeNode> list = new LinkedList<>();
 
-        if(root != null) {
+        TreeNode node = root;
 
-            if(root.val > root.left.val) {
+        if(node == null) { return null; }
 
-                node =  flatten(root.left);
+        if(node.right == null && node.right == null) {
 
-            } else if (root.val < root.right.val) {
-
-                node = flatten(root.right);
-            }
-
-
+            return node;
         }
 
-        return node;
+        TreeNode left_node =  flatten(node.left);
+
+
+        TreeNode right_node = flatten(node.right);
+
+        if(left_node != null) {
+            left_node.right = node.right;
+            node.right = node.left;
+            node.left = null;
+        }
+
+        return right_node == null ? left_node : right_node;
 
     }
 }

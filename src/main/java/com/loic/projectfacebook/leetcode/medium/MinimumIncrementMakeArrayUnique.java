@@ -1,25 +1,28 @@
 package com.loic.projectfacebook.leetcode.medium;
 
+import java.util.Arrays;
+
 public class MinimumIncrementMakeArrayUnique {
 
     public int minIncrementForUnique(int[] A) {
 
-        int n = A.length;
+        int count = 0;
+        Arrays.sort(A);
 
-        int sum = A[0];
-        int prev = A[0];
+        for(int i =1;i<A.length;++i) {
 
-        for( int i = 1; i < n; i++ ) {
-            int curr = A[i];
+            if(A[i] <= A[i-1]) {
 
-            if( prev >= curr ) {
-                curr = prev+1;
+                int temp = A[i];
+                A[i] = A[i - 1] + 1;
+
+                count += A[i] - temp;
+
             }
-            sum += curr;
-            prev = curr;
+
         }
 
-        return sum;
+        return count;
 
 
     }

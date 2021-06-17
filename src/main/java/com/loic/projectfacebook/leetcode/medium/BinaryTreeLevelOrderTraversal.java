@@ -4,55 +4,69 @@ import java.util.*;
 
 public class BinaryTreeLevelOrderTraversal {
 
-    public boolean isVisited(TreeNode root) {
+    //DFS
 
-        Map<TreeNode,TreeNode> mapNode = new HashMap<>();
+    List<List<Integer>> levels = new ArrayList<>();
 
-        while (root != null) {
+    public List<List<Integer>> levelOrder(TreeNode root) {
 
-            if(mapNode.containsKey(root)) {
-
-                return true;
-            }
-        }
-
-        return false;
+        if (root == null)
+            return levels;
+        helper(root, 0);
+        return levels;
     }
 
-    public ArrayList<ArrayList<Integer>> levelOrder(TreeNode root) {
+    public void helper(TreeNode node,int level) {
 
-        Queue<TreeNode> queue = null;
-        ArrayList<Integer> list_nodes = new ArrayList();
-        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+        if(levels.size() == level)
+            levels.add(new ArrayList<Integer>());
 
+        levels.get(level).add(node.val);
 
-        while(root != null) {
-
-            if(isVisited(root)) {
-
-                queue.add(root);
-            }
-
-            if(!isVisited(root.left)) {
-
-                queue.add(root.left);
-                isVisited(root.left);
-                list_nodes.add(root.left.val);
-
-            } else if (!isVisited(root.right)) {
-
-                queue.add(root.right);
-                list_nodes.add(root.right.val);
-
-            }
-
-            list.add(list_nodes);
-
+        if(node.left != null) {
+            helper(node.left,level+1);
         }
-
-        return list;
-
+        if(node.right != null){
+            helper(node.right,level+1);
+        }
     }
+
+
+    // BFS : I actually like this solution better
+
+    /*
+
+    List<List<Integer>> levels = new ArrayList<List<Integer>>();
+    if (root == null) return levels;
+
+    Queue<TreeNode> queue = new LinkedList<TreeNode>();
+    queue.add(root);
+    int level = 0;
+    while ( !queue.isEmpty() ) {
+      // start the current level
+      levels.add(new ArrayList<Integer>());
+
+      // number of elements in the current level
+      int level_length = queue.size();
+      for(int i = 0; i < level_length; ++i) {
+        TreeNode node = queue.remove();
+
+        // fulfill the current level
+        levels.get(level).add(node.val);
+
+        // add child nodes of the current level
+        // in the queue for the next level
+        if (node.left != null) queue.add(node.left);
+        if (node.right != null) queue.add(node.right);
+      }
+      // go to next level
+      level++;
+    }
+    return levels;
+  }
+
+
+     */
 
 
 

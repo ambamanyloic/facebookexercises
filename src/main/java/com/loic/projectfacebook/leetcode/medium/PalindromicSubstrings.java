@@ -5,26 +5,6 @@ public class PalindromicSubstrings {
     public int countSubstrings(String s) {
 
 
-        /*int count = 0;
-
-        int s_length = s.length();
-
-        char[] s_char = s.toCharArray();
-
-        for(int i=0;i<s.length();i++) {
-
-            for(int j=s.length()-1;j>=0;j--) {
-
-
-                if (s_char[i] == s_char[j]) {
-                    count++;
-                }
-            }
-
-        }
-
-        return count;*/
-
         int count = 0;
         for(int i = 0; i < s.length(); ++i){
             count += countPalindromes(s, i, i);

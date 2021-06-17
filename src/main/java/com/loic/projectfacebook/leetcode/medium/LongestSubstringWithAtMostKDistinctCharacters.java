@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LongLongestSubstringWithMostKDistinctCharacters {
+public class LongestSubstringWithAtMostKDistinctCharacters {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
 
         int max = 0;
@@ -17,6 +17,7 @@ public class LongLongestSubstringWithMostKDistinctCharacters {
 
             if(map.size() == k+1) {
                 int leftIndex = Collections.min(map.values());
+                //int leftIndex = map.get(s.charAt(left));
                 map.remove(s.charAt(leftIndex));
                 left = leftIndex +1;
             }
@@ -24,11 +25,9 @@ public class LongLongestSubstringWithMostKDistinctCharacters {
         }
         return max;
     }
-
-    public static void main(String [] args) {
-        LongLongestSubstringWithMostKDistinctCharacters longest = new LongLongestSubstringWithMostKDistinctCharacters();
-        String str = "eceba";
-        System.out.println(longest.lengthOfLongestSubstringKDistinct(str,2));
-
+    public static void main(String[] args){
+        String s = "eceba";
+        LongestSubstringWithAtMostKDistinctCharacters longest = new LongestSubstringWithAtMostKDistinctCharacters();
+        System.out.println(longest.lengthOfLongestSubstringKDistinct(s,2));
     }
 }
