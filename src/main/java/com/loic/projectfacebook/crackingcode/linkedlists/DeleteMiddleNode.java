@@ -4,26 +4,44 @@ package com.loic.projectfacebook.crackingcode.linkedlists;
 
 public class DeleteMiddleNode {
 
-    public ListNode deleteNode(ListNode head, int d) {
+    public boolean deleteNode(ListNode head) {
 
+        if(head == null) return false;
 
-        ListNode node = head;
-        ListNode dnode = new ListNode(d);
+        ListNode runner = head.next;
+        head.value = runner.value;
+        head.next = runner.next;
 
-        if (head != null) {
+        return true;
 
-
-                if (node.value == dnode.value) {
-
-                    node.next = node.next.next;
-                    return head;
-                }
-                node = node.next;
-
-        }
-
-        return head;
     }
+
+    static void printList(ListNode ptr)
+    {
+        while (ptr != null) {
+            System.out.print(ptr.value + "->");
+            ptr = ptr.next;
+        }
+        System.out.println("NULL");
+    }
+
+    public static void main(String[] args) {
+
+        ListNode node = new ListNode(2);
+        node.next = new ListNode(7);
+        node.next.next = new ListNode(6);
+        node.next.next.next = new ListNode(4);
+
+        System.out.println("Given Linked List");
+        printList(node);
+
+        DeleteMiddleNode mid = new DeleteMiddleNode();
+        mid.deleteNode(node);
+
+        System.out.println("Linked List after deletion of middle");
+        printList(node);
+    }
+
 
 
 }

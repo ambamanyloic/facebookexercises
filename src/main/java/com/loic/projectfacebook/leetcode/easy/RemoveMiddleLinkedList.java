@@ -37,14 +37,6 @@ public class RemoveMiddleLinkedList {
         System.out.println("NULL");
     }
 
-    static ListNode newNode(int data)
-    {
-        ListNode temp = new ListNode();
-        temp.val = data;
-        temp.next = null;
-        return temp;
-    }
-
     /* Driver code*/
     public static void main(String[] args)
     {

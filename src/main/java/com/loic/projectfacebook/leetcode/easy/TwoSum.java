@@ -7,34 +7,32 @@ import java.util.Map;
 
 public class TwoSum {
 
-    public ArrayList<Integer> twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
         if(nums==null || nums.length<2)
-           // return new int[]{0,0};
-            return null;
+           return new int[]{0,0};
 
-        ArrayList<Integer> arr_list = new ArrayList<>();
 
+        //ArrayList<Integer> arr_list = new ArrayList<>();
+        int [] result = null;
         Map<Integer, Integer> numMap = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
             if (numMap.containsKey(complement)) {
-                //return new int[] { numMap.get(complement), i };
-                //numMap.get(complement);
-                arr_list.add(numMap.get(complement));
-                arr_list.add(i);
+                result = new int[] { numMap.get(complement), i };
+
             } else {
                 numMap.put(nums[i], i);
             }
         }
-        return arr_list;
+        return result;
     }
 
 
     public static void main(String[] args) {
 
         TwoSum sum = new TwoSum();
-        int[] new_array = {2,7,11,15};
-        System.out.println(sum.twoSum(new_array,9));
+        int[] new_array = {3,3};
+        System.out.println(sum.twoSum(new_array,6));
     }
 
 }

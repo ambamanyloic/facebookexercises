@@ -1,39 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6120a0c-27c0-4611-81d5-5d00d084e9c4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/trees/BSTInOrder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/IntersectionTwoArraysTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/IsValidBSTTest.java" />
+    <list default="true" id="e6120a0c-27c0-4611-81d5-5d00d084e9c4" name="Default" comment="commit for BST Jun 17th">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/arrays/IsPermutation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/arrays/IsUnique.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/arrays/OneAway.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/arrays/PalindromePermutation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/graphs/BreadthFirstSearch.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/graphs/Graph.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/graphs/ListNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/KthLastElementLinkedList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/LinkedListDepths.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/LinkedListPalindrome.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/RemoveDuplicates.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/TreeNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/basic/LongestSubstringLeastKRepeatingCharacters.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/basic/TestSum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/basic/TwoDimentionalArrays.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ElementAppearingMoreThan25SortedArray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsSubsequence.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/KthMissingPositiveNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/LongestCommonPrefix.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MaxConsecutiveOnes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MergeTwoSortedLists.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/PairSum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/PalindromeNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/PalindromePermutation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveAllAdjacentDuplicatesString.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ReverseInteger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/StackMin.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/TestLinkedList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/TwoSumII.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/MedianTwoSortedArrays.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/IncreasingTripletSubsequence.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MinimumPathSum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/Search2DMatrix.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/UniquePaths.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MaximumSubArrayTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/trees/Node.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/trees/Node.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/BinaryTreePathII.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/BinaryTreePaths.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/BinaryTreePaths.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrays.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrays.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/DeleteMiddleNode.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/DeleteMiddleNode.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/linkedlists/KthToLast.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/trees/GraphBFS.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/trees/GraphBFS.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/AverageLevelsBinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/AverageLevelsBinaryTree.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsValidPalindrome.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsValidPalindrome.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MergedSortArray.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MergedSortArray.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MinimumDepthBT.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MinimumDepthBT.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MoveZeroes.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MoveZeroes.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/PalindromeLinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/PalindromeLinkedList.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveDuplicates.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveDuplicates.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveElement.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveElement.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveMiddleLinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveMiddleLinkedList.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/StrStr.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/StrStr.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/SymmetricTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/SymmetricTree.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/TwoSum.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/TwoSum.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ValidParentheses.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ValidParentheses.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FirstLastPosition.java" afterPath="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FirstLastPosition.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IsValidBSTTest.java" afterPath="$PROJECT_DIR$/src/test/java/IsValidBSTTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/linkedlists/DeleteMiddleNode.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/linkedlists/DeleteMiddleNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/linkedlists/KthToLast.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/GraphBFS$Node.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/GraphBFS$Node.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/GraphBFS.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/crackingcode/trees/GraphBFS.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/AverageLevelsBinaryTree.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/AverageLevelsBinaryTree.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/IsValidPalindrome.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/IsValidPalindrome.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/MergedSortArray.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/MergedSortArray.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/MinimumDepthBT.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/MinimumDepthBT.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/MoveZeroes.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/MoveZeroes.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/PalindromeLinkedList.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/PalindromeLinkedList.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveLinkedListElements.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveLinkedListElements.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveDuplicates.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveDuplicates.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveElement.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveElement.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveMiddleLinkedList.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/RemoveMiddleLinkedList.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/TreeNode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/StrStr.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/StrStr.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/SymmetricTree.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/SymmetricTree.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/TwoSum.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/TwoSum.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/ValidParentheses.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/easy/ValidParentheses.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/BinarySearchTreeIterator.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/BinarySearchTreeIterator.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/BinaryTreeLevelOrderTraversal.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/BinaryTreeLevelOrderTraversal.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FindAllDuplicatesArray.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FindAllDuplicatesArray.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FindMinimumRotatedSortedArray.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FindMinimumRotatedSortedArray.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FindPeakElement.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FindPeakElement.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FirstLastPosition.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FirstLastPosition.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FlattenBinaryTreeLinkedList.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/FlattenBinaryTreeLinkedList.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/GroupAnagrams.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/GroupAnagrams.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/KthLargestElement.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/KthLargestElement.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/KthSmallestElementBST.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/KthSmallestElementBST.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestPalindromicSubstring.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestPalindromicSubstring.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestStringWRepeating.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestStringWRepeating.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LowestCommonAncestor.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LowestCommonAncestor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/MinimumSizeSubarraySum.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/MinimumSizeSubarraySum.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestSubstringMostTwoDistinctCharacters.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestSubstringMostTwoDistinctCharacters.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/LongestSubstringWAtLeastKRepeatingCharacters.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/MinimumIncrementMakeArrayUnique.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/MinimumIncrementMakeArrayUnique.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/PalindromicSubstrings.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/PalindromicSubstrings.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/PermutationStrings.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/ReorganizeString.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/ReorganizeString.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/ReverseWords.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/ReverseWords.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/SearchRotatedArray.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/SearchRotatedArray.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/SerializeDeserializeBST.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/SerializeDeserializeBST.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/StringCompression.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/StringCompression.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/SubArraysSum.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/SubArraysSum.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/ThreeSum.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/ThreeSum.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/TopKFrequentWords.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/TopKFrequentWords.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/TreeNode.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/TreeNode.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/trees/Node.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/trees/Node.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/ValidateBinarySearchTree.class" afterPath="$PROJECT_DIR$/target/classes/com/loic/projectfacebook/leetcode/medium/ValidateBinarySearchTree.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IsValidBSTTest.class" afterPath="$PROJECT_DIR$/target/test-classes/IsValidBSTTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,105 +113,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IntersectionTwoArrayBis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrayBis.java">
+      <file leaf-file-name="MedianStream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/MedianStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="33">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntersectionTwoArrays.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntersectionTwoArraysTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/IntersectionTwoArraysTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindAllDuplicatesArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FindAllDuplicatesArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IsValidBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsValidBST.java">
+      <file leaf-file-name="MedianTwoSortedArrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/MedianTwoSortedArrays.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsValidBSTTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/IsValidBSTTest.java">
+      <file leaf-file-name="UniquePaths.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/UniquePaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongestSubstringWAtLeastKRepeatingCharacters.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestSubstringWAtLeastKRepeatingCharacters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubArraysSum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SubArraysSum.java">
+      <file leaf-file-name="MinimumPathSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MinimumPathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeTesterClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BinaryTreeTesterClass.java">
+      <file leaf-file-name="ProductArrayExceptSelf.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ProductArrayExceptSelf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PalindromeTesterClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PalindromeTesterClass.java">
+      <file leaf-file-name="GroupAnagrams.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/GroupAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="15">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstLastPosition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FirstLastPosition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CombinationSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/CombinationSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
               <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search2DMatrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/Search2DMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlowSums.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/SlowSums.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -168,12 +228,19 @@
     <findStrings>
       <find>Node</find>
       <find>String</find>
+      <find>getOrDefault</find>
+      <find>map.getOrDefault</find>
+      <find>Map.Entry</find>
+      <find>Digit</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
     <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium</dir>
       <dir>$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode</dir>
+      <dir>$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -187,57 +254,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FindMinimumRotatedSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/GroupAnagramsII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/HighFive.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ReorganizeString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/TestMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestStringWRepeating.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/GroupAnagrams.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SplitArrayConsecutiveSubsequences.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestSubstringMostTwoDistinctCharacters.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/strStr.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/StrStr.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IntersectionThreeSortedArrays.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/PalindromicSubstrings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SingleElementSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MinimumIncrementMakeArrayUnique.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrays.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/BinaryTreePathII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MoveZeroes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/trees/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/trees/BSTInOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BinarySearchTreeIterator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveLinkedListElements.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsValidPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestPalindromicSubstring.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestPalindromicString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ClosestBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ValidPalindromeII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FindAllDuplicatesArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/PalindromeLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/BinaryTreePaths.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LowestCommonAncestor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/InvertBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SerializeDeserializeBST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/KthLargestElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/PermutationStrings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FirstLastPosition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsValidBST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MinimumSizeSubarraySum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FindPeakElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/TopKFrequentWords.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LCMTDC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ValidateBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BinaryTreeZigzagLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SearchRotatedArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/Subsets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/PermutationString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/Permutations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/CombinationSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestSubstringWAtLeastKRepeatingCharacters.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BinaryTreeInorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/KthSmallestElementBST.java" />
-        <option value="$PROJECT_DIR$/src/test/java/IntersectionTwoArraysTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/IsValidBSTTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/CombinationSumIII.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestSubstringWithAtMostKDistinctCharacters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ContiguousArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ContinuousSubarraySum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/crackingcode/trees/GraphBFS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/NodesInSubtree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/PairSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/BalancedSplit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BinaryTreeRightSideView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/NumberVisibleNodes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/ReverseToMakeEqual.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/QueueRemovals.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/MinimumLengthSubstrings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/SlowSums.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/LargestTripleProducts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MaximumSizeSubarraySumEqualsK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MinimumSizeSubarraySumEqualsK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SplitArrayWithEqualSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/OneEditDistance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/FindMedianFromDataStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/MedianStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MyStack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/StackMin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsValidPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/RotationalCipher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/ContiguousSubarrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FindAllDuplicatesArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ReverseLinkedListII.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ThreeSumClosest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FindLargestValueEachTreeRow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SubArraysSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SumOfTwoIntegers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/RangeSumQueryDImmutable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ReverseInteger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/IncreasingTripletSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IsValidBSTTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MaximumSubArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FirstLastPosition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/Search2DMatrix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/UniquePaths.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MinimumPathSum.java" />
       </list>
     </option>
   </component>
@@ -259,10 +326,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="838" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -296,6 +363,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,7 +417,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="projectfacebook" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="hard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="facebookexercises" type="b2602c69:ProjectViewProjectNode" />
@@ -362,16 +433,6 @@
               <item name="facebookexercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="facebookexercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="projectfacebook" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="facebookexercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="facebookexercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,15 +441,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="facebookexercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="facebookexercises" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,7 +477,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubArraysSum">
+  <component name="RunManager" selected="JUnit.MaximumSubArrayTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -423,14 +485,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="LCMTDC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="IncreasingTripletSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.loic.projectfacebook.leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.loic.projectfacebook.leetcode.medium.LCMTDC" />
+      <option name="MAIN_CLASS_NAME" value="com.loic.projectfacebook.leetcode.medium.IncreasingTripletSubsequence" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -442,14 +504,14 @@
       <module name="facebookexercises" />
       <envs />
     </configuration>
-    <configuration name="LongestSubstringMostTwoDistinctCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MaximumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.loic.projectfacebook.leetcode.medium.*" />
+          <option name="PATTERN" value="com.loic.projectfacebook.leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.loic.projectfacebook.leetcode.medium.LongestSubstringMostTwoDistinctCharacters" />
+      <option name="MAIN_CLASS_NAME" value="com.loic.projectfacebook.leetcode.easy.MaximumSubArray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -461,33 +523,14 @@
       <module name="facebookexercises" />
       <envs />
     </configuration>
-    <configuration name="SubArraysSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.loic.projectfacebook.leetcode.medium.*" />
+          <option name="PATTERN" value="com.loic.projectfacebook.leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.loic.projectfacebook.leetcode.medium.SubArraysSum" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="facebookexercises" />
-      <envs />
-    </configuration>
-    <configuration name="TopKFrequentWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.loic.projectfacebook.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.loic.projectfacebook.leetcode.medium.TopKFrequentWords" />
+      <option name="MAIN_CLASS_NAME" value="com.loic.projectfacebook.leetcode.easy.ValidParentheses" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -513,13 +556,33 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="IntersectionTwoArraysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsValidBSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="facebookexercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IntersectionTwoArraysTest" />
+      <option name="MAIN_CLASS_NAME" value="IsValidBSTTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MaximumSubArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="facebookexercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MaximumSubArrayTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -594,19 +657,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TopKFrequentWords" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LongestSubstringMostTwoDistinctCharacters" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LCMTDC" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.IntersectionTwoArraysTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SubArraysSum" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ValidParentheses" />
+      <item index="1" class="java.lang.String" itemvalue="Application.IncreasingTripletSubsequence" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.IsValidBSTTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MaximumSubArray" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MaximumSubArrayTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SubArraysSum" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.IntersectionTwoArraysTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TopKFrequentWords" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LCMTDC" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LongestSubstringMostTwoDistinctCharacters" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MaximumSubArrayTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MaximumSubArray" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IsValidBSTTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IncreasingTripletSubsequence" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -652,7 +715,13 @@
       <workItem from="1609027278488" duration="15288000" />
       <workItem from="1609948072674" duration="130000" />
       <workItem from="1609948313921" duration="20059000" />
-      <workItem from="1612837089281" duration="79494000" />
+      <workItem from="1612837089281" duration="130649000" />
+      <workItem from="1615814332376" duration="35521000" />
+      <workItem from="1616621946061" duration="61430000" />
+      <workItem from="1621175733284" duration="42242000" />
+      <workItem from="1623205395177" duration="17564000" />
+      <workItem from="1623518181437" duration="18036000" />
+      <workItem from="1623936158205" duration="12940000" />
     </task>
     <task id="LOCAL-00001" summary="commit for BST">
       <created>1607483905299</created>
@@ -675,19 +744,136 @@
       <option name="project" value="LOCAL" />
       <updated>1614196362477</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit for BST Feb 23">
+      <created>1616698821746</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616698821746</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit for BST Feb 23">
+      <created>1616698840302</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616698840302</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit for BST Feb 23">
+      <created>1616698965690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616698965690</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit for BST Feb 23">
+      <created>1616698973695</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616698973695</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit for BST Feb 23">
+      <created>1616698985777</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616698985777</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit for BST Feb 23">
+      <created>1616698998294</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616698998294</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit for BST Feb 23">
+      <created>1616699020717</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616699020717</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit for BST Feb 23">
+      <created>1616699801278</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616699801278</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit for BST Feb 23">
+      <created>1616699811609</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616699811609</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit for BST Feb 23">
+      <created>1616699824895</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616699824895</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit for BST Feb 23">
+      <created>1616699843176</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1616699843176</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commit for BST Feb 23">
+      <created>1616699866525</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616699866525</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commit for BST Feb 23">
+      <created>1616699882556</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1616699882556</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit for BST Feb 23">
+      <created>1616699901856</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1616699901856</updated>
+    </task>
+    <task id="LOCAL-00018" summary="commit for BST Feb 23">
+      <created>1616699950890</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1616699950890</updated>
+    </task>
+    <task id="LOCAL-00019" summary="commit for BST Feb 23">
+      <created>1616699966259</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616699966259</updated>
+    </task>
+    <task id="LOCAL-00020" summary="commit for BST Jun 17th">
+      <created>1623955563554</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1623955563555</updated>
+    </task>
+    <task id="LOCAL-00021" summary="commit for BST Jun 17th">
+      <created>1623955658619</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1623955658619</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryTreeTesterClass - 2020.10.16 at 10h 29m 03s.xml">
-      <configuration name="BinaryTreeTesterClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTesterClass - 2020.10.16 at 10h 29m 50s.xml">
-      <configuration name="BinaryTreeTesterClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTesterClass - 2020.10.16 at 10h 49m 20s.xml">
-      <configuration name="BinaryTreeTesterClass" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IntersectionTwoArraysTest - 2021.02.23 at 22h 16m 56s.xml">
       <configuration name="IntersectionTwoArraysTest" configurationId="JUnit" />
     </history-entry>
@@ -696,6 +882,15 @@
     </history-entry>
     <history-entry file="IntersectionTwoArraysTest - 2021.02.23 at 22h 18m 05s.xml">
       <configuration name="IntersectionTwoArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumSubArrayTest - 2021.06.23 at 20h 59m 06s.xml">
+      <configuration name="MaximumSubArrayTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumSubArrayTest - 2021.06.23 at 20h 59m 31s.xml">
+      <configuration name="MaximumSubArrayTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumSubArrayTest - 2021.06.23 at 21h 00m 53s.xml">
+      <configuration name="MaximumSubArrayTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PalindromeTesterClass - 2020.10.14 at 16h 12m 47s.xml">
       <configuration name="PalindromeTesterClass" configurationId="JUnit" />
@@ -706,30 +901,34 @@
     <history-entry file="PalindromeTesterClass - 2020.10.14 at 16h 13m 30s.xml">
       <configuration name="PalindromeTesterClass" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="com_loic_projectfacebook_leetcode_hard_in_facebookexercises - 2021.06.12 at 13h 17m 18s.xml">
+      <configuration name="com.loic.projectfacebook.leetcode.hard in facebookexercises" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="476906000" />
+    <option name="totallyTimeSpent" value="715794000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="838" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="828" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257066" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32469305" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26379544" sideWeight="0.50250894" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2920592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2537517" sideWeight="0.49749103" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41058657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -741,7 +940,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.042918455" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -753,7 +951,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit for BST" />
     <MESSAGE value="commit for BST Feb 23" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit for BST Feb 23" />
+    <MESSAGE value="commit for BST Jun 17th" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit for BST Jun 17th" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -771,7 +970,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/TopKFrequentWords.java</url>
-          <line>35</line>
+          <line>30</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -781,23 +980,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/trees/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ContiguousArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="435">
+          <caret line="29" column="57" lean-forward="false" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveLinkedListElements.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/MinimumLengthSubstrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="255">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsValidAnagram.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/NodesInSubtree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -805,356 +1004,265 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ReverseWords.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/Permutations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LargestBSTSubtree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestPalindromicString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IntersectionTwoLinkedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsValidPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ValidPalindromeII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/PalindromeLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="68" column="22" lean-forward="false" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/BinaryTreePaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/InvertBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/RemoveDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BinarySearchTreeIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="26" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SerializeDeserializeBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="20" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LowestCommonAncestor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="21" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FlattenBinaryTreeLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/LongestIncreasingSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestStringWRepeating.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="60">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestPalindromicSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/PermutationStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FirstLastPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="49" column="24" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/PalindromicSubstrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FindPeakElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="57" column="29" lean-forward="false" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LCMTDC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="33" column="72" lean-forward="false" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#280#299#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestSubstringMostTwoDistinctCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/TopKFrequentWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="35" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ValidateBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/KthLargestElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BinaryTreeLevelOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ClosestBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BinaryTreeInorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/KthSmallestElementBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="e#283#293#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MinimumSizeSubarraySum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/InorderSuccessorBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BinaryTreeTesterClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PalindromeTesterClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrayBis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FindAllDuplicatesArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsValidBST.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SingleNumberIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ReverseLinkedListII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ThreeSumClosest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IntersectionTwoArrayBis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/InOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SubArraysSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/KthLargestElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/PermutationString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SumOfTwoIntegers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MaximumLevelSumBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BinarySearchTreeIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BinaryTreeInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BinaryTreeLevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FindLargestValueEachTreeRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/RemoveNthNodeEndList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/BSTToGreaterTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/RangeSumQueryDImmutable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/ContiguousSubarrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ReverseInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ConstructBinaryTreePreorderInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/IncreasingTripletSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/NumberVisibleNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/LargestTripleProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1162,38 +1270,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IntersectionTwoArraysTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/IsValidBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/StackMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/easy/MaximumSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/IsValidBSTTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MaximumSubArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/SlowSums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/ProductArrayExceptSelf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/GroupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/FirstLastPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/CombinationSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/LongestSubstringWAtLeastKRepeatingCharacters.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/Search2DMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/SubArraysSum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/MedianStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="33">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/hard/MedianTwoSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/UniquePaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loic/projectfacebook/leetcode/medium/MinimumPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

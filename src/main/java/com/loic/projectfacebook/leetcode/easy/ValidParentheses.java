@@ -7,7 +7,6 @@ public class ValidParentheses {
 
     public boolean isValid(String s) {
 
-        char[] string_char = s.toCharArray();
         Stack<Character> stck_chr = new Stack<>();
         HashMap<Character, Character> hMap = new HashMap<Character, Character>();
         hMap.put('(', ')');
@@ -32,7 +31,7 @@ public class ValidParentheses {
 
     public static void main(String[] args) {
 
-        String str = "[{[}]";
+        String str = "[";
         ValidParentheses valid = new ValidParentheses();
         System.out.println(valid.isValid(str));
     }

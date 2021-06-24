@@ -8,29 +8,28 @@ public class MinimumDepthBT {
         return minDepth(root);
     }
 
-    public int minDepth(TreeNode root) {
+    public int minDepth(TreeNode node) {
 
 
-        if(root == null) {
+        if(node == null) {
 
         }
 
-        if (root.left == null && root.right == null) {
+        if (node.left == null && node.right == null) { // since no more leaves depth == 1
             return 1;
         }
 
-        if(root.left != null) {
+        int min_depth = Integer.MAX_VALUE;
 
-            return minDepth(root.left) + 1;
+        if(node.left != null) {
 
-            }
-            else if(root.right != null) {
-
-            return minDepth(root.right) + 1;
+            min_depth = Math.min(minDepth(node.left),min_depth);
 
             }
-
-        return 1+ Math.min(minDepth(root.right),minDepth(root.left));
+        if(node.right != null){
+            min_depth = Math.min(minDepth(node.right),min_depth);
+        }
+        return min_depth +1;
 
         }
 

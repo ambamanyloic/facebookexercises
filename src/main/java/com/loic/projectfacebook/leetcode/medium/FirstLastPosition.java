@@ -13,27 +13,18 @@ public class FirstLastPosition {
         for(int i=0;i<nums.length;i++) {
 
             if (nums[i] == target) {
-
-
                 start = i;
 
             }
-
         }
-
         list.add(start);
 
             for(int j=nums.length-1;j>=0;j--) {
 
                 if(nums[j] ==  target) {
-
-
                    end = j;
-
                 }
-
             }
-
         list.add(end);
 
             /*int [] result = new int[list.size()];

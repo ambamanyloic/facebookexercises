@@ -4,22 +4,27 @@ import java.util.*;
 
 public class MoveZeroes {
 
-    public List<Integer> moveZeroes(int[] nums) {
+    public ArrayList<Integer> moveZeroes(int[] nums) {
 
-        int i = 0;
-        int j = 0;
         ArrayList<Integer> list = new ArrayList<>();
 
-        while (j < nums.length) {
-            if (nums[j] != 0) {
-                nums[i++] = nums[j];
-                nums[j--] = 0;
+        int position =0;
 
+        for(int i=0;i<nums.length;i++){
+            if(nums[i] != 0) {
+                nums[position] = nums[i];
+                list.add(nums[position]);
+                position++;
             }
-            j++;
         }
 
-        return list;
+        for(;position<nums.length;position++)
+            nums[position] = 0;
+            //list.add(nums[position]);
+
+
+    return list;
+
 
     }
 

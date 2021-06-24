@@ -5,29 +5,34 @@ public class AverageLevelsBinaryTree {
 
     public List<Double> averageOfLevels(TreeNode root) {
 
-            List<Double> rst = new ArrayList<>();
+            List<Double> result = new ArrayList<>();
             if (root == null)  {
-                return rst;
+                return result;
             }
 
             Queue<TreeNode> queue = new LinkedList<>();
-            queue.offer(root);
+
+            queue.add(root);
+
             while (!queue.isEmpty()) {
-                int size = queue.size();
+                int count = queue.size();
                 double sum = 0;
-                for (int i = 0; i < size; i++) {
-                    TreeNode node = queue.poll();
+
+                for (int i = 0; i < count; i++) {
+
+                    TreeNode node = queue.remove();
                     sum += node.val;
+
                     if (node.left != null) {
-                        queue.offer(node.left);
+                        queue.add(node.left);
                     }
                     if (node.right != null) {
-                        queue.offer(node.right);
+                        queue.add(node.right);
                     }
                 }
-                rst.add(sum / size);
+                result.add(sum / count);
             }
 
-            return rst;
+            return result;
     }
 }

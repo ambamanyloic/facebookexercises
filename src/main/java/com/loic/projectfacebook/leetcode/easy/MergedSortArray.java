@@ -7,9 +7,6 @@ public class MergedSortArray {
     public static void merge(int[] nums1, int[] nums2, int n,int m ,int[] nums3) {
 
         ArrayList<Integer> new_list = new ArrayList<Integer>();
-        int n3 = m + n;
-        //int[] nums3 = new int[n3];
-        //int [] new_list = {0,0};
         int i = 0, j = 0, k = 0;
 
         // Traverse both array

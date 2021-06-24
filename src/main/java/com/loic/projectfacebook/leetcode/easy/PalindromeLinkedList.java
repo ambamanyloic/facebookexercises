@@ -1,92 +1,52 @@
 package com.loic.projectfacebook.leetcode.easy;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 public class PalindromeLinkedList {
 
+    static ListNode head;
+
 
     boolean isPalindrome(ListNode head) {
 
-        if(head == null)
-            return true;
+        List<Integer> list = new ArrayList<>();
 
-        ListNode p = head;
-        ListNode prev = new ListNode(head.val);
-
-        while(p.next != null){
-            ListNode current = new ListNode(p.next.val);
-            current.next = prev;
-            prev = current;
-            p = p.next;
+        ListNode current = head;
+        while(current != null) {
+                list.add(current.val);
+                current = current.next;
         }
 
-        ListNode p1 = head;
-        ListNode p2 = prev;
+        int front = 0;
+        int back = list.size() - 1;
 
-        while(p1!=null){
-            if(p1.val != p2.val)
+        while(front < back) {
+
+            if(list.get(front) != list.get(back)) {
+
                 return false;
+            }
 
-            p1 = p1.next;
-            p2 = p2.next;
+            front++;
+            back--;
+
         }
 
         return true;
-
-
-        /*ListNode slow = head;
-
-        Stack<Integer> stack = new Stack<>();
-
-        while(slow != null) {
-
-            stack.push(slow.val);
-            slow = slow.next;
-
-        }
-
-        while(head != null) {
-
-
-            int top = stack.pop();
-
-            if(head.val == top) {
-
-                head = head.next;
-
-                return true;
-
-
-            } else {
-
-                return false;
-
-            }
-
-
-        }
-
-        return true;*/
 
     }
 
     public static void main(String[] args) {
 
-        ListNode one = new ListNode(1);
-        ListNode two = new ListNode(1);
-        ListNode three = new ListNode(1);
-        ListNode four = new ListNode(2);
-        ListNode five = new ListNode(1);
-        ListNode six = new ListNode(1);
-        ListNode seven = new ListNode(1);
-        one.next = two;
-        two.next = three;
-        three.next = four;
-        four.next = five;
-        five.next = six;
-        six.next = seven;
+        PalindromeLinkedList list = new PalindromeLinkedList();
+        list.head = new ListNode(1);
+        list.head.next = new ListNode(2);
+        list.head.next.next = new ListNode(2);
+        list.head.next.next.next = new ListNode(1);
         PalindromeLinkedList condition = new PalindromeLinkedList();
-        System.out.println("isPalidrome :" + condition.isPalindrome(one));
+        System.out.println("isPalidrome :" + condition.isPalindrome(head));
 
     }
 }

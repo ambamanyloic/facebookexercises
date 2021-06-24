@@ -6,7 +6,6 @@ public class IsValidPalindrome {
 
     public boolean isPalindrome(String s) {
 
-        char[] stack_char = s.toCharArray();
         int left = 0;
         int right = s.length() -1;
         char leftChar;
