@@ -101,6 +101,7 @@ public class GraphDijkstra {
         graph.addNode(nodeDijkstraF);
 
         graph = GraphDijkstra.calculateShortestPathFromSource(graph, nodeDijkstraA);
+        System.out.println(graph);
 
 
     }

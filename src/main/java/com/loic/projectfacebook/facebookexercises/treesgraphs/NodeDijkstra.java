@@ -16,22 +16,27 @@ public class NodeDijkstra {
     Map<NodeDijkstra, Integer> adjacentNodes = new HashMap<>();
 
     public void addDestination(NodeDijkstra destination, int distance) {
+
         adjacentNodes.put(destination, distance);
     }
 
     public NodeDijkstra(String name) {
+
         this.name = name;
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public List<NodeDijkstra> getShortestPath() {
+
         return shortestPath;
     }
 
@@ -40,6 +45,7 @@ public class NodeDijkstra {
     }
 
     public Integer getDistance() {
+
         return distance;
     }
 
@@ -48,10 +54,12 @@ public class NodeDijkstra {
     }
 
     public Map<NodeDijkstra, Integer> getAdjacentNodes() {
+
         return adjacentNodes;
     }
 
     public void setAdjacentNodes(Map<NodeDijkstra, Integer> adjacentNodes) {
+
         this.adjacentNodes = adjacentNodes;
     }
 
